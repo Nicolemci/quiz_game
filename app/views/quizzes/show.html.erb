@@ -1,9 +1,9 @@
-<h1>Geography Quiz: <%= @quiz.title %></h1>
+<h1><%= @quiz.title %></h1>
 <div id="quiz-container">
   <% @countries.each do |country| %>
     <div class="country" data-name="<%= country.name %>" data-population="<%= country.population %>">
       <%= country.name %>
+      <span class="result"></span>
     </div>
   <% end %>
 </div>
-<button id="submit-sort">Submit Order</button>

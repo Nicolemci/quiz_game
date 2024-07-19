@@ -4,3 +4,4 @@
     <li><%= link_to quiz.title, category_quiz_path(@category, quiz) %></li>
   <% end %>
 </ul>
+<%= link_to 'Population Quiz', new_category_quiz_path(@category, quiz_type: 'population'), class: 'btn btn-primary' %>

@@ -1,0 +1,21 @@
+.country {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.country.correct {
+  background-color: green;
+  color: white;
+}
+
+.country.incorrect {
+  background-color: red;
+  color: white;
+}
+
+.result {
+  margin-left: 10px;
+}
